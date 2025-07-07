@@ -13,7 +13,7 @@ A modern **React Native** app built using **Expo**, designed to be cross-platfor
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/test.git
+git clone https://github.com/assistantcoder/my-test-repo.git
 cd test
 npm install
 ```
