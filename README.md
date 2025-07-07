@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# 📱 Test App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern **React Native** app built using **Expo**, designed to be cross-platform, fast, and developer-friendly.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 🔄 Hot reloading with Expo
+- 📱 Run on Android, iOS, and Web
+- 🧹 Code linting with ESLint
+- 🗃️ Organized modular structure
+- ⚙️ TypeScript support for safer development
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/test.git
+cd test
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📱 Run the App
 
-## Learn more
+To start the development server:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Run on specific platforms:
 
-## Join the community
+```bash
+npm run android   # for Android
+npm run ios       # for iOS
+npm run web       # for Web
+```
 
-Join our community of developers creating universal apps.
+## 🧽 Utilities
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm run lint          # Lint the codebase
+npm run reset-project # Clean and reset node_modules & cache
+```
+
+## 📁 Project Structure
+
+```
+test/
+├── app/           # Main application code
+│   ├── (drawer)/      # Drawer navigation structure
+│   ├── component/     # Reusable UI components
+│   └── screens/       # App screens (e.g. search)
+├── assets/        # Images, fonts, etc.
+├── package.json   # Project metadata and dependencies
+├── tsconfig.json  # TypeScript configuration
+```
+## 🧪 Requirements
+
+- Node.js ≥ 16
+- Expo CLI: `npm install -g expo-cli`
+
+## 📜 License
+
+MIT License
+
+---
+
+Built with ❤️ using React Native and Expo.
